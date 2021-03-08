@@ -1,0 +1,123 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% facharbeit.tex								%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% In dieser Datei werden die grundsätzlichen	%%
+%% Einstellungen der Facharbeit gemacht.		%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%
+% Einbinden der Dokumentklasse
+\documentclass[headsepline,12pt,bibliography=totoc,enabledeprecatedfontcommands]{scrartcl}
+%%
+% Einbinden der Packages
+\usepackage[ibycus,ngerman]{babel}  % falls der Artikel auf Deutsch verfasst ist
+\usepackage[backend=biber,style=authoryear,firstinits=true]{biblatex}
+\usepackage{geometry,scrlayer-scrpage,chngpage,soul,blindtext,fancybox,lastpage,microtype,textcomp,amsthm,pdfpages,hyperref,chngcntr,hebtex,amssymb,pxfonts,amssymb}
+\usepackage[utf8]{inputenc}
+\usepackage[babel,german=quotes]{csquotes}
+\usepackage[normalem]{ulem}
+\usepackage[multiple]{footmisc}
+\setkomafont{sectioning}{\bfseries}
+\addbibresource{arbeit.bib}
+
+\renewcommand*\thesection{\S\,\arabic{section}}
+\renewcommand*\thesubsection{\arabic{section}.\arabic{subsection}}
+\renewcommand*\thesubsubsection{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
+
+\usepackage{setspace}
+\makeatletter
+\newcommand{\MSonehalfspacing}{%
+  \setstretch{1.44}%  default
+  \ifcase \@ptsize \relax % 10pt
+    \setstretch {1.448}%
+  \or % 11pt
+    \setstretch {1.399}%
+  \or % 12pt
+    \setstretch {1.433}%
+  \fi
+}
+\newcommand{\MSdoublespacing}{%
+  \setstretch {1.92}%  default
+  \ifcase \@ptsize \relax % 10pt
+    \setstretch {1.936}%
+  \or % 11pt
+    \setstretch {1.866}%
+  \or % 12pt
+    \setstretch {1.902}%
+  \fi
+}
+\makeatother
+
+%% Variablen
+\newcommand{\art}{Hausarbeit}
+\newcommand{\fach}{Neues Testament}
+\newcommand{\titel}{Steh auf, nimm deine Matte\\ und geh in dein Haus!}
+\newcommand{\untertitel}{Exegese zu Mk 2, 1--12 parr.}
+\newcommand{\dozent}{NN.}
+\newcommand{\name}{Alexander R. K\,r\,a\,u\,s\,e}
+\newcommand{\mentor}{Gerhard M\,e\,t\,z\,g\,e\,r}
+\newcommand{\abgabe}{\today}
+\newcommand{\kurs}{31 (11/2020 bis 6/2022)}
+\newcommand{\wohnort}{Pommelsbrunn}
+
+\renewcommand*{\mkbibnamelast}[1]{\textsc{#1}}
+
+% Einstellen des Textlayouts auf Vorgaben für Facharbeiten
+\geometry{a4paper,left=20mm,right=30mm,top=20mm,bottom=20mm,includeheadfoot}
+
+\pagestyle{scrheadings} 
+\clearscrheadfoot
+\automark[section]{section} 
+\cfoot[\pagemark]{-- \pagemark\,--}
+\ihead[\headmark]{\headmark}
+
+%%
+% Start des Dokumentes
+\begin{document}
+
+	\newenvironment{sourcequote}[1]%
+	{\begin{quote}\singlespacing\small\sbox{\source}{#1}}%
+	{\\\hspace*{\fill}\usebox{\source}\end{quote}}
+	
+	% Keine "Schusterjungen"
+	\clubpenalty = 10000
+	% Keine "Hurenkinder"
+	\widowpenalty = 10000 \displaywidowpenalty = 10000
+	
+	\interfootnotelinepenalty 10000
+	\setlength{\parindent}{0pt}
+	\setlength{\footnotesep}{1.2em}
+	\renewcommand{\refname}{Literaturverzeichnis}
+	
+	%Titelseite, immer
+	\include{titelseite}
+	\newpage
+	\tableofcontents
+	\setcounter{page}{2}
+	\setlength{\parindent}{2em}
+
+	%%
+	% Einbinden des Haupttextes
+	\newpage
+	\MSonehalfspacing\include{text}
+
+	%%
+	% Einbinden des Literaturverzeichnisses
+	
+	\newpage
+	\nocite{*}\printbibliography
+	
+	%%
+	% Einbinden des Anhangs
+	
+	
+	% \newpage
+	% \include{appendix}
+
+	%%
+	% Einbinden der Schlusserklärung
+
+	\newpage
+	\include{erklaerung}
+	
+\end{document}
