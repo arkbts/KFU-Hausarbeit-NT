@@ -65,9 +65,9 @@
 % Einstellen des Textlayouts auf Vorgaben für Facharbeiten
 \geometry{a4paper,left=20mm,right=30mm,top=20mm,bottom=20mm,includeheadfoot}
 
-\pagestyle{scrheadings} 
+\pagestyle{scrheadings}
 \clearscrheadfoot
-\automark[section]{section} 
+\automark[section]{section}
 \cfoot[\pagemark]{-- \pagemark\,--}
 \ihead[\headmark]{\headmark}
 
@@ -78,17 +78,17 @@
 	\newenvironment{sourcequote}[1]%
 	{\begin{quote}\singlespacing\small\sbox{\source}{#1}}%
 	{\\\hspace*{\fill}\usebox{\source}\end{quote}}
-	
+
 	% Keine "Schusterjungen"
 	\clubpenalty = 10000
 	% Keine "Hurenkinder"
 	\widowpenalty = 10000 \displaywidowpenalty = 10000
-	
+
 	\interfootnotelinepenalty 10000
 	\setlength{\parindent}{0pt}
 	\setlength{\footnotesep}{1.2em}
 	\renewcommand{\refname}{Literaturverzeichnis}
-	
+
 	%Titelseite, immer
 	\include{titelseite}
 	\newpage
@@ -103,14 +103,15 @@
 
 	%%
 	% Einbinden des Literaturverzeichnisses
-	
+
 	\newpage
-	\nocite{*}\printbibliography
-	
+	\nocite{*}
+  \printbibliography
+
 	%%
 	% Einbinden des Anhangs
-	
-	
+
+
 	% \newpage
 	% \include{appendix}
 
@@ -119,5 +120,5 @@
 
 	\newpage
 	\include{erklaerung}
-	
+
 \end{document}

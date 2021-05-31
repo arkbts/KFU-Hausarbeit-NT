@@ -29,5 +29,6 @@ pdf-signiert: pdf
 pdf:
 	latexmk -pdf -bibtex "arbeit"
 	latexmk -c
+	open arbeit.pdf
 
 default: usage

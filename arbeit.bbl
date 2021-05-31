@@ -19,6 +19,89 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{Dschulnigg1986}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=78edc44b2df681cf0bc5f2da2ee556a6}{%
+           family={Dschulnigg},
+           familyi={D\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {Deutsch}%
+      }
+      \list{location}{1}{%
+        {Stuttgart}%
+      }
+      \list{publisher}{1}{%
+        {Verl. Kathol. Bibelwerk}%
+      }
+      \strng{namehash}{78edc44b2df681cf0bc5f2da2ee556a6}
+      \strng{fullhash}{78edc44b2df681cf0bc5f2da2ee556a6}
+      \strng{bibnamehash}{78edc44b2df681cf0bc5f2da2ee556a6}
+      \strng{authorbibnamehash}{78edc44b2df681cf0bc5f2da2ee556a6}
+      \strng{authornamehash}{78edc44b2df681cf0bc5f2da2ee556a6}
+      \strng{authorfullhash}{78edc44b2df681cf0bc5f2da2ee556a6}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Magazin C 17425}
+      \field{edition}{2. Aufl}
+      \field{isbn}{3-460-00111-9}
+      \field{note}{Zentrum - Magazin}
+      \field{series}{Stuttgarter biblische Beiträge ; 11}
+      \field{title}{Sprache, Redaktion und Intention des Markus-Evangeliums: Eigentümlichkeiten d. Sprache d. Markus-Evangeliums u. ihre Bedeutung für d. Red.-Kritik}
+      \field{year}{1986}
+      \true{nocite}
+      \field{pages}{XV\bibrangessep 771 S.}
+      \range{pages}{-1}
+      \keyw{Markus <Evangelist,Heiliger> <ca. 1. Jh.>. Bibel. Markusevangelium. Sprache}
+    \endentry
+    \entry{Klostermann1950}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bf8a51e913e00cd34395d1e8ddc72a1d}{%
+           family={Klostermann},
+           familyi={K\bibinitperiod},
+           given={Erich},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {Deutsch}%
+      }
+      \list{location}{1}{%
+        {Tübingen}%
+      }
+      \list{publisher}{1}{%
+        {Mohr}%
+      }
+      \strng{namehash}{bf8a51e913e00cd34395d1e8ddc72a1d}
+      \strng{fullhash}{bf8a51e913e00cd34395d1e8ddc72a1d}
+      \strng{bibnamehash}{bf8a51e913e00cd34395d1e8ddc72a1d}
+      \strng{authorbibnamehash}{bf8a51e913e00cd34395d1e8ddc72a1d}
+      \strng{authornamehash}{bf8a51e913e00cd34395d1e8ddc72a1d}
+      \strng{authorfullhash}{bf8a51e913e00cd34395d1e8ddc72a1d}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Magazin P 4476(3)}
+      \field{edition}{4., erg. Aufl}
+      \field{note}{Zentrum - Magazin}
+      \field{series}{Handbuch zum Neuen Testament ; 3}
+      \field{title}{Das Markusevangelium}
+      \field{year}{1950}
+      \true{nocite}
+      \field{pages}{180 S.}
+      \range{pages}{-1}
+      \keyw{Markus <Evangelist,Heiliger> <ca. 1. Jh.>. Bibel. Markusevangelium}
+    \endentry
     \entry{mann1984}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9d7b547738201a20dd32242e25bd7b12}{%
@@ -252,6 +335,176 @@
       \field{edition}{8}
       \field{title}{Einführung in die neutestamentliche Exegese}
       \field{year}{2014}
+    \endentry
+    \entry{Schweizer1998}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=abba4113e7e77fdf47578b03c79e1776}{%
+           family={Schweizer},
+           familyi={S\bibinitperiod},
+           given={Eduard},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {Deutsch}%
+      }
+      \list{location}{1}{%
+        {Göttingen}%
+      }
+      \list{publisher}{1}{%
+        {Vandenhoeck \& Ruprecht}%
+      }
+      \strng{namehash}{abba4113e7e77fdf47578b03c79e1776}
+      \strng{fullhash}{abba4113e7e77fdf47578b03c79e1776}
+      \strng{bibnamehash}{abba4113e7e77fdf47578b03c79e1776}
+      \strng{authorbibnamehash}{abba4113e7e77fdf47578b03c79e1776}
+      \strng{authornamehash}{abba4113e7e77fdf47578b03c79e1776}
+      \strng{authorfullhash}{abba4113e7e77fdf47578b03c79e1776}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Präsenz 22.2 Schw}
+      \field{edition}{18., durchges. Aufl., (8. Aufl. dieser Bearb.)}
+      \field{isbn}{978-3-525-51304-0}
+      \field{note}{Zentrum}
+      \field{series}{Das Neue Testament Deutsch ; Teilbd. 1}
+      \field{title}{Das Evangelium nach Markus}
+      \field{year}{1998}
+      \field{pages}{222 Seiten}
+      \range{pages}{-1}
+      \keyw{Markus <Evangelist,Heiliger> <ca. 1. Jh.>. Bibel. Markusevangelium. Exegese}
+    \endentry
+    \entry{wellhausen1903Mk}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d8eba5a4ed8bd39c3e72fdf7b6f97d58}{%
+           family={Wellhausen},
+           familyi={W\bibinitperiod},
+           given={Julius},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Georg Reimer}%
+      }
+      \strng{namehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{fullhash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{bibnamehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{authorbibnamehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{authornamehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{authorfullhash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Das Evangelium Marci}
+      \field{year}{1903}
+    \endentry
+    \entry{wellhausen1904Lk}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d8eba5a4ed8bd39c3e72fdf7b6f97d58}{%
+           family={Wellhausen},
+           familyi={W\bibinitperiod},
+           given={Julius},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Georg Reimer}%
+      }
+      \strng{namehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{fullhash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{bibnamehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{authorbibnamehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{authornamehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{authorfullhash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Das Evangelium Lucae}
+      \field{year}{1904}
+      \true{nocite}
+    \endentry
+    \entry{wellhausen1904Mt}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d8eba5a4ed8bd39c3e72fdf7b6f97d58}{%
+           family={Wellhausen},
+           familyi={W\bibinitperiod},
+           given={Julius},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Georg Reimer}%
+      }
+      \strng{namehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{fullhash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{bibnamehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{authorbibnamehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{authornamehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{authorfullhash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \field{extraname}{3}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Das Evangelium Matthaei}
+      \field{year}{1904}
+      \true{nocite}
+    \endentry
+    \entry{wellhausen1908joh}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d8eba5a4ed8bd39c3e72fdf7b6f97d58}{%
+           family={Wellhausen},
+           familyi={W\bibinitperiod},
+           given={Julius},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Georg Reimer}%
+      }
+      \strng{namehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{fullhash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{bibnamehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{authorbibnamehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{authornamehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{authorfullhash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \field{extraname}{4}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Das Evangelium Johannis}
+      \field{year}{1908}
+      \true{nocite}
     \endentry
     \entry{elbtk2017}{book}{}
       \name{editor}{1}{}{%
