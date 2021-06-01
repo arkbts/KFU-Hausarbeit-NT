@@ -24,6 +24,8 @@
 \renewcommand*\thesubsection{\arabic{section}.\arabic{subsection}}
 \renewcommand*\thesubsubsection{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
 
+\newcommand{\sectionNoNumber}[1]{\section*{#1}\addcontentsline{toc}{section}{#1}\markboth{#1}{#1}}
+
 \usepackage{setspace}
 \makeatletter
 \newcommand{\MSonehalfspacing}{%
@@ -109,16 +111,15 @@
   \printbibliography
 
 	%%
-	% Einbinden des Anhangs
-
-
-	% \newpage
-	% \include{appendix}
-
-	%%
 	% Einbinden der Schlusserklärung
 
 	\newpage
 	\include{erklaerung}
+
+	%%
+	% Einbinden des Anhangs
+
+	\newpage
+	\include{appendix}
 
 \end{document}
