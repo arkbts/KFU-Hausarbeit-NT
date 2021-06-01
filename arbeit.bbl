@@ -50,15 +50,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{annotation}{Magazin C 17425}
-      \field{edition}{2. Aufl}
+      \field{edition}{2}
       \field{isbn}{3-460-00111-9}
-      \field{note}{Zentrum - Magazin}
-      \field{series}{Stuttgarter biblische Beiträge ; 11}
+      \field{series}{Stuttgarter biblische Beiträge}
       \field{title}{Sprache, Redaktion und Intention des Markus-Evangeliums: Eigentümlichkeiten d. Sprache d. Markus-Evangeliums u. ihre Bedeutung für d. Red.-Kritik}
+      \field{volume}{11}
       \field{year}{1986}
       \true{nocite}
-      \field{pages}{XV\bibrangessep 771 S.}
-      \range{pages}{-1}
       \keyw{Markus <Evangelist,Heiliger> <ca. 1. Jh.>. Bibel. Markusevangelium. Sprache}
     \endentry
     \entry{Klostermann1950}{book}{}
@@ -92,14 +90,12 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{annotation}{Magazin P 4476(3)}
-      \field{edition}{4., erg. Aufl}
-      \field{note}{Zentrum - Magazin}
-      \field{series}{Handbuch zum Neuen Testament ; 3}
+      \field{edition}{4}
+      \field{series}{Handbuch zum Neuen Testament}
       \field{title}{Das Markusevangelium}
+      \field{volume}{3}
       \field{year}{1950}
       \true{nocite}
-      \field{pages}{180 S.}
-      \range{pages}{-1}
       \keyw{Markus <Evangelist,Heiliger> <ca. 1. Jh.>. Bibel. Markusevangelium}
     \endentry
     \entry{mann1984}{book}{}
@@ -367,14 +363,12 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{annotation}{Präsenz 22.2 Schw}
-      \field{edition}{18., durchges. Aufl., (8. Aufl. dieser Bearb.)}
+      \field{edition}{18}
       \field{isbn}{978-3-525-51304-0}
-      \field{note}{Zentrum}
-      \field{series}{Das Neue Testament Deutsch ; Teilbd. 1}
+      \field{series}{Das Neue Testament Deutsch}
       \field{title}{Das Evangelium nach Markus}
+      \field{volume}{1}
       \field{year}{1998}
-      \field{pages}{222 Seiten}
-      \range{pages}{-1}
       \keyw{Markus <Evangelist,Heiliger> <ca. 1. Jh.>. Bibel. Markusevangelium. Exegese}
     \endentry
     \entry{wellhausen1903Mk}{book}{}
@@ -474,7 +468,7 @@
       \field{year}{1904}
       \true{nocite}
     \endentry
-    \entry{wellhausen1908joh}{book}{}
+    \entry{wellhausen1908Joh}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d8eba5a4ed8bd39c3e72fdf7b6f97d58}{%
            family={Wellhausen},
