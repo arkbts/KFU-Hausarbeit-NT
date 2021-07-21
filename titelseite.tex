@@ -26,15 +26,17 @@
 
 	\vfill
 
+  \ifthenelse{\equal{\fassung}{}}{}{\setlength{\fboxrule}{2pt}\begin{center}\fbox{\Huge{\fassung}}\\\large{v. \today}\end{center}\vfill\normalsize}
+
 \begin{tabular}{ll}
-	DozentIn:   	& \dozent \\
+	\ifthenelse{\equal{\dozent}{}}{}{Dozent:in:   	& \dozent \\}
 	Mentor:			& \mentor \\\\
 	Vorgelegt von:	& \name \\
 					% & Student im kirchlichen Fernunterricht \\
 					& 91224 Pommelsbrunn, Weinleitenweg 2 \\
 					& alexander.krause@elkb.de \\\\
 	Kurs:			& \kurs \\
-	Abgabe: 		& \textit{Poststempel:} \\
+  \ifthenelse{\equal{\abgabe}{}}{& \\}{Abgabe:   	& \abgabe \\}
 	Umfang:			& \pageref{LastPage} Seiten \\
 \end{tabular}
 

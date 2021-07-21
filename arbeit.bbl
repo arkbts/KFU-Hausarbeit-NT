@@ -19,7 +19,39 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
-    \entry{Dschulnigg1986}{book}{}
+    \entry{synopsis1976}{book}{}
+      \name{editor}{1}{}{%
+        {{un=0,uniquepart=base,hash=e6d858ba69c3a78c311dfa084b1d9595}{%
+           family={Aland},
+           familyi={A\bibinitperiod},
+           given={Kurt},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Stuttgart}%
+      }
+      \list{publisher}{1}{%
+        {Deutsche Bibelgesellschaft}%
+      }
+      \strng{namehash}{e6d858ba69c3a78c311dfa084b1d9595}
+      \strng{fullhash}{e6d858ba69c3a78c311dfa084b1d9595}
+      \strng{bibnamehash}{e6d858ba69c3a78c311dfa084b1d9595}
+      \strng{editorbibnamehash}{e6d858ba69c3a78c311dfa084b1d9595}
+      \strng{editornamehash}{e6d858ba69c3a78c311dfa084b1d9595}
+      \strng{editorfullhash}{e6d858ba69c3a78c311dfa084b1d9595}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{series}{9}
+      \field{title}{Synopsis Quattuor Evangeliorum}
+      \field{year}{1976}
+      \true{nocite}
+    \endentry
+    \entry{dschulnigg1986}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=78edc44b2df681cf0bc5f2da2ee556a6}{%
            family={Dschulnigg},
@@ -35,7 +67,7 @@
         {Stuttgart}%
       }
       \list{publisher}{1}{%
-        {Verl. Kathol. Bibelwerk}%
+        {Katholisches Bibelwerk}%
       }
       \strng{namehash}{78edc44b2df681cf0bc5f2da2ee556a6}
       \strng{fullhash}{78edc44b2df681cf0bc5f2da2ee556a6}
@@ -53,13 +85,11 @@
       \field{edition}{2}
       \field{isbn}{3-460-00111-9}
       \field{series}{Stuttgarter biblische Beiträge}
-      \field{title}{Sprache, Redaktion und Intention des Markus-Evangeliums: Eigentümlichkeiten d. Sprache d. Markus-Evangeliums u. ihre Bedeutung für d. Red.-Kritik}
+      \field{title}{Sprache, Redaktion und Intention des Markus-Evangeliums: Eigentümlichkeiten der Sprache des Markus-Evangeliums und ihre Bedeutung für die Redaktionskritik}
       \field{volume}{11}
       \field{year}{1986}
-      \true{nocite}
-      \keyw{Markus <Evangelist,Heiliger> <ca. 1. Jh.>. Bibel. Markusevangelium. Sprache}
     \endentry
-    \entry{Klostermann1950}{book}{}
+    \entry{klostermann1950}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=bf8a51e913e00cd34395d1e8ddc72a1d}{%
            family={Klostermann},
@@ -96,7 +126,6 @@
       \field{volume}{3}
       \field{year}{1950}
       \true{nocite}
-      \keyw{Markus <Evangelist,Heiliger> <ca. 1. Jh.>. Bibel. Markusevangelium}
     \endentry
     \entry{mann1984}{book}{}
       \name{author}{1}{}{%
@@ -200,7 +229,6 @@
       \field{edition}{4}
       \field{title}{Grundinformation Neues Testament}
       \field{year}{2011}
-      \true{nocite}
     \endentry
     \entry{preuss2}{book}{}
       \name{author}{1}{}{%
@@ -298,7 +326,6 @@
       \field{edition}{1}
       \field{title}{Einleitung in das Neue Testament}
       \field{year}{2013}
-      \true{nocite}
     \endentry
     \entry{schnelle2014}{book}{}
       \name{author}{1}{}{%
@@ -332,7 +359,7 @@
       \field{title}{Einführung in die neutestamentliche Exegese}
       \field{year}{2014}
     \endentry
-    \entry{Schweizer1998}{book}{}
+    \entry{schweizer1998}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=abba4113e7e77fdf47578b03c79e1776}{%
            family={Schweizer},
@@ -369,7 +396,6 @@
       \field{title}{Das Evangelium nach Markus}
       \field{volume}{1}
       \field{year}{1998}
-      \keyw{Markus <Evangelist,Heiliger> <ca. 1. Jh.>. Bibel. Markusevangelium. Exegese}
     \endentry
     \entry{wellhausen1903Mk}{book}{}
       \name{author}{1}{}{%

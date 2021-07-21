@@ -8,6 +8,7 @@
 %%
 % Einbinden der Dokumentklasse
 \documentclass[headsepline,12pt,bibliography=totoc,enabledeprecatedfontcommands]{scrartcl}
+
 %%
 % Einbinden der Packages
 \usepackage[ibycus,ngerman]{babel}  % falls der Artikel auf Deutsch verfasst ist
@@ -17,6 +18,8 @@
 \usepackage[babel,german=quotes]{csquotes}
 \usepackage[normalem]{ulem}
 \usepackage[multiple]{footmisc}
+\usepackage{setspace}
+\usepackage{tikz,color}
 \setkomafont{disposition}{\normalcolor\bfseries}
 \addbibresource{arbeit.bib}
 
@@ -26,7 +29,8 @@
 
 \newcommand{\sectionNoNumber}[1]{\section*{#1}\addcontentsline{toc}{section}{#1}\markboth{#1}{#1}}
 
-\usepackage{setspace}
+%%
+% MS Spacing
 \makeatletter
 \newcommand{\MSonehalfspacing}{%
   \setstretch{1.44}%  default
@@ -50,15 +54,19 @@
 }
 \makeatother
 
+\newcommand{\zB}{\mbox{z.\,B.}\xspace} % typografisch richtiges z. B.
+
 %% Variablen
+\newcommand{\fassung}{ENTWURF}
+\newcommand{\abgabe}{}
+
 \newcommand{\art}{Hausarbeit}
 \newcommand{\fach}{Neues Testament}
 \newcommand{\titel}{Steh auf, nimm deine Matte\\ und geh in dein Haus!}
 \newcommand{\untertitel}{Exegese zu Mk 2, 1--12 parr.}
-\newcommand{\dozent}{NN.}
+\newcommand{\dozent}{}
 \newcommand{\name}{Alexander R. K\,r\,a\,u\,s\,e}
 \newcommand{\mentor}{Gerhard M\,e\,t\,z\,g\,e\,r}
-\newcommand{\abgabe}{\today}
 \newcommand{\kurs}{31 (11/2020 bis 6/2022)}
 \newcommand{\wohnort}{Pommelsbrunn}
 
@@ -91,6 +99,7 @@
 	\setlength{\footnotesep}{1.2em}
 	\renewcommand{\refname}{Literaturverzeichnis}
 
+  %%
 	%Titelseite, immer
 	\include{titelseite}
 	\newpage
@@ -98,28 +107,29 @@
 	\setcounter{page}{2}
 	\setlength{\parindent}{2em}
 
+  %%
+  % 1,5facher Zeilenabstand (wie Word)
+  \MSonehalfspacing
+
 	%%
 	% Einbinden des Haupttextes
 	\newpage
-	\MSonehalfspacing\include{text}
+	\include{text}
 
 	%%
 	% Einbinden des Literaturverzeichnisses
-
 	\newpage
 	\nocite{*}
   \printbibliography
 
 	%%
 	% Einbinden der Schlusserklärung
-
 	\newpage
 	\include{erklaerung}
 
 	%%
 	% Einbinden des Anhangs
-
 	\newpage
-	\include{appendix}
+  \include{appendix}
 
 \end{document}
