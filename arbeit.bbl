@@ -50,6 +50,43 @@
       \field{title}{Bibelkunde}
       \field{year}{2014}
     \endentry
+    \entry{dormeyer20082}{url}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e43deea62af85ada8f23f9dc2f3fde24}{%
+           family={Dormeyer},
+           familyi={D\bibinitperiod},
+           given={Detlev},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e43deea62af85ada8f23f9dc2f3fde24}
+      \strng{fullhash}{e43deea62af85ada8f23f9dc2f3fde24}
+      \strng{bibnamehash}{e43deea62af85ada8f23f9dc2f3fde24}
+      \strng{authorbibnamehash}{e43deea62af85ada8f23f9dc2f3fde24}
+      \strng{authornamehash}{e43deea62af85ada8f23f9dc2f3fde24}
+      \strng{authorfullhash}{e43deea62af85ada8f23f9dc2f3fde24}
+      \field{extraname}{1}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Das wissenschaftliche Bibellexikon im Internet}
+      \field{title}{Erzählende Gattungen / Textsorten (NT)}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2021}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bibelwissenschaft.de/fileadmin/buh_bibelmodul/media/wibi/pdf/Erz%C3%A4hlende_Gattungen_Textsorten_NT___2018-09-20_06_20.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.bibelwissenschaft.de/fileadmin/buh_bibelmodul/media/wibi/pdf/Erz%C3%A4hlende_Gattungen_Textsorten_NT___2018-09-20_06_20.pdf
+      \endverb
+    \endentry
     \entry{dormeyer2008}{url}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e43deea62af85ada8f23f9dc2f3fde24}{%
@@ -65,8 +102,10 @@
       \strng{authorbibnamehash}{e43deea62af85ada8f23f9dc2f3fde24}
       \strng{authornamehash}{e43deea62af85ada8f23f9dc2f3fde24}
       \strng{authorfullhash}{e43deea62af85ada8f23f9dc2f3fde24}
+      \field{extraname}{2}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -160,7 +199,7 @@
       \field{title}{Exegese des Neuen Testaments}
       \field{year}{2007}
     \endentry
-    \entry{NA28}{book}{}
+    \entry{na28}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3b0401e613f05ec95840eca524cdb498}{%
            family={Nestle},
@@ -368,6 +407,43 @@
       \field{title}{Das Evangelium nach Markus}
       \field{volume}{1}
       \field{year}{1998}
+    \endentry
+    \entry{strack1996}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d675bd9b4f5485fb27a88c9ecada1d47}{%
+           family={Strack},
+           familyi={S\bibinitperiod},
+           given={Hermann\bibnamedelima L.},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76ea498347fed77d37056f90f8ea1441}{%
+           family={Billerbeck},
+           familyi={B\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {München}%
+      }
+      \list{publisher}{1}{%
+        {C. H. Beck}%
+      }
+      \strng{namehash}{6080582363fe1dfd17dbdeea3f812bad}
+      \strng{fullhash}{6080582363fe1dfd17dbdeea3f812bad}
+      \strng{bibnamehash}{6080582363fe1dfd17dbdeea3f812bad}
+      \strng{authorbibnamehash}{6080582363fe1dfd17dbdeea3f812bad}
+      \strng{authornamehash}{6080582363fe1dfd17dbdeea3f812bad}
+      \strng{authorfullhash}{6080582363fe1dfd17dbdeea3f812bad}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{10}
+      \field{title}{Das Evangelium nach Matthäus erläutert nach Talmud und Midrasch}
+      \field{year}{1996}
     \endentry
     \entry{wellhausen1903Mk}{book}{}
       \name{author}{1}{}{%
