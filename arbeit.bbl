@@ -19,6 +19,41 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{boeck2011}{url}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b78cc3e4359fb9ca046f558b941e4b17}{%
+           family={Böck},
+           familyi={B\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b78cc3e4359fb9ca046f558b941e4b17}
+      \strng{fullhash}{b78cc3e4359fb9ca046f558b941e4b17}
+      \strng{bibnamehash}{b78cc3e4359fb9ca046f558b941e4b17}
+      \strng{authorbibnamehash}{b78cc3e4359fb9ca046f558b941e4b17}
+      \strng{authornamehash}{b78cc3e4359fb9ca046f558b941e4b17}
+      \strng{authorfullhash}{b78cc3e4359fb9ca046f558b941e4b17}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Das wissenschaftliche Bibellexikon im Internet}
+      \field{title}{Krankheit und Heilung (Alter Orient)}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2021}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bibelwissenschaft.de/fileadmin/buh_bibelmodul/media/wibi/pdf/Krankheit_und_Heilung_Alter_Orient___2018-12-03_21_12.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.bibelwissenschaft.de/fileadmin/buh_bibelmodul/media/wibi/pdf/Krankheit_und_Heilung_Alter_Orient___2018-12-03_21_12.pdf
+      \endverb
+    \endentry
     \entry{bormann2014}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9174eef23b9e08083665578dbb3a54df}{%
@@ -444,36 +479,6 @@
       \field{edition}{10}
       \field{title}{Das Evangelium nach Matthäus erläutert nach Talmud und Midrasch}
       \field{year}{1996}
-    \endentry
-    \entry{wellhausen1903Mk}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=d8eba5a4ed8bd39c3e72fdf7b6f97d58}{%
-           family={Wellhausen},
-           familyi={W\bibinitperiod},
-           given={Julius},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Berlin}%
-      }
-      \list{publisher}{1}{%
-        {Georg Reimer}%
-      }
-      \strng{namehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
-      \strng{fullhash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
-      \strng{bibnamehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
-      \strng{authorbibnamehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
-      \strng{authornamehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
-      \strng{authorfullhash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Das Evangelium Marci}
-      \field{year}{1903}
     \endentry
     \entry{elbtk2017}{book}{}
       \name{editor}{1}{}{%

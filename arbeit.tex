@@ -13,7 +13,7 @@
 % Einbinden der Packages
 \usepackage[ibycus,ngerman]{babel}  % falls der Artikel auf Deutsch verfasst ist
 \usepackage[backend=biber,style=authoryear,firstinits=true]{biblatex}
-\usepackage{geometry,scrlayer-scrpage,chngpage,soul,blindtext,fancybox,lastpage,microtype,textcomp,amsthm,pdfpages,hyperref,chngcntr,hebtex,amssymb,pxfonts,amssymb}
+\usepackage{geometry,scrlayer-scrpage,chngpage,soul,blindtext,fancybox,lastpage,microtype,textcomp,amsthm,pdfpages,hyperref,chngcntr,hebtex,amssymb,pxfonts,amssymb,epigraph}
 \usepackage[utf8]{inputenc}
 \usepackage[babel,german=quotes]{csquotes}
 \usepackage[normalem]{ulem}
@@ -27,7 +27,7 @@
 \renewcommand*\thesubsection{\arabic{section}.\arabic{subsection}}
 \renewcommand*\thesubsubsection{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
 
-\newcommand{\sectionNoNumber}[1]{\section*{#1}\addcontentsline{toc}{section}{#1}\markboth{#1}{#1}}
+\newcommand{\sectionNoNumber}[1]{\section*{#1}\markboth{#1}{#1}}
 
 %%
 % MS Spacing
@@ -55,6 +55,7 @@
 \makeatother
 
 \newcommand{\zB}{\mbox{z.\,B.}\xspace} % typografisch richtiges z. B.
+\newcommand{\ie}{\mbox{i.\,e.}\xspace} % typografisch richtiges i. e.
 
 %% Variablen
 \newcommand{\fassung}{ENTWURF}
@@ -62,7 +63,7 @@
 
 \newcommand{\art}{Hausarbeit}
 \newcommand{\fach}{Neues Testament}
-\newcommand{\titel}{Steh auf, nimm deine Matte\\ und geh in dein Haus!}
+\newcommand{\titel}{\glqq Steh auf, nimm deine Matte\\ und geh in dein Haus!\grqq}
 \newcommand{\untertitel}{Exegese zu Mk 2, 1--12 parr.}
 \newcommand{\dozent}{}
 \newcommand{\name}{Alexander R. K\,r\,a\,u\,s\,e}
