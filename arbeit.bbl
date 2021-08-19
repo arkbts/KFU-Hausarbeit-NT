@@ -19,6 +19,39 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{synopsis1976}{book}{}
+      \name{editor}{1}{}{%
+        {{un=0,uniquepart=base,hash=e6d858ba69c3a78c311dfa084b1d9595}{%
+           family={Aland},
+           familyi={A\bibinitperiod},
+           given={Kurt},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Stuttgart}%
+      }
+      \list{publisher}{1}{%
+        {Deutsche Bibelgesellschaft}%
+      }
+      \strng{namehash}{e6d858ba69c3a78c311dfa084b1d9595}
+      \strng{fullhash}{e6d858ba69c3a78c311dfa084b1d9595}
+      \strng{bibnamehash}{e6d858ba69c3a78c311dfa084b1d9595}
+      \strng{editorbibnamehash}{e6d858ba69c3a78c311dfa084b1d9595}
+      \strng{editornamehash}{e6d858ba69c3a78c311dfa084b1d9595}
+      \strng{editorfullhash}{e6d858ba69c3a78c311dfa084b1d9595}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{series}{9}
+      \field{title}{Synopsis Quattuor Evangeliorum}
+      \field{year}{1976}
+      \true{nocite}
+      \keyw{Bibel}
+    \endentry
     \entry{boeck2011}{url}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b78cc3e4359fb9ca046f558b941e4b17}{%
@@ -53,6 +86,7 @@
       \verb{url}
       \verb https://www.bibelwissenschaft.de/fileadmin/buh_bibelmodul/media/wibi/pdf/Krankheit_und_Heilung_Alter_Orient___2018-12-03_21_12.pdf
       \endverb
+      \keyw{Sekundaer}
     \endentry
     \entry{bormann2014}{book}{}
       \name{author}{1}{}{%
@@ -84,6 +118,7 @@
       \field{edition}{5}
       \field{title}{Bibelkunde}
       \field{year}{2014}
+      \keyw{Sekundaer}
     \endentry
     \entry{dormeyer20082}{url}{}
       \name{author}{1}{}{%
@@ -121,6 +156,7 @@
       \verb{url}
       \verb https://www.bibelwissenschaft.de/fileadmin/buh_bibelmodul/media/wibi/pdf/Erz%C3%A4hlende_Gattungen_Textsorten_NT___2018-09-20_06_20.pdf
       \endverb
+      \keyw{Sekundaer}
     \endentry
     \entry{dormeyer2008}{url}{}
       \name{author}{1}{}{%
@@ -158,6 +194,7 @@
       \verb{url}
       \verb https://www.bibelwissenschaft.de/fileadmin/buh_bibelmodul/media/wibi/pdf/Evangelium__2018-09-20_06_20.pdf
       \endverb
+      \keyw{Sekundaer}
     \endentry
     \entry{dschulnigg1986}{book}{}
       \name{author}{1}{}{%
@@ -196,6 +233,7 @@
       \field{title}{Sprache, Redaktion und Intention des Markus-Evangeliums: Eigentümlichkeiten der Sprache des Markus-Evangeliums und ihre Bedeutung für die Redaktionskritik}
       \field{volume}{11}
       \field{year}{1986}
+      \keyw{Kommentar}
     \endentry
     \entry{ebner2007}{book}{}
       \name{author}{2}{}{%
@@ -233,6 +271,115 @@
       \field{edition}{2}
       \field{title}{Exegese des Neuen Testaments}
       \field{year}{2007}
+      \keyw{Sekundaer}
+    \endentry
+    \entry{freyanthes2007}{url}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0217e619d3be1ef74511d2069d2dde52}{%
+           family={Frey-Anthes},
+           familyi={F\bibinithyphendelim A\bibinitperiod},
+           given={Henrike},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0217e619d3be1ef74511d2069d2dde52}
+      \strng{fullhash}{0217e619d3be1ef74511d2069d2dde52}
+      \strng{bibnamehash}{0217e619d3be1ef74511d2069d2dde52}
+      \strng{authorbibnamehash}{0217e619d3be1ef74511d2069d2dde52}
+      \strng{authornamehash}{0217e619d3be1ef74511d2069d2dde52}
+      \strng{authorfullhash}{0217e619d3be1ef74511d2069d2dde52}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Das wissenschaftliche Bibellexikon im Internet}
+      \field{title}{Krankheit und Heilung (AT)}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2021}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.bibelwissenschaft.de/fileadmin/buh_bibelmodul/media/wibi/pdf/Krankheit_und_Heilung_AT___2018-12-03_22_04.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.bibelwissenschaft.de/fileadmin/buh_bibelmodul/media/wibi/pdf/Krankheit_und_Heilung_AT___2018-12-03_22_04.pdf
+      \endverb
+      \keyw{Sekundaer}
+    \endentry
+    \entry{klostermann1950}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bf8a51e913e00cd34395d1e8ddc72a1d}{%
+           family={Klostermann},
+           familyi={K\bibinitperiod},
+           given={Erich},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {Deutsch}%
+      }
+      \list{location}{1}{%
+        {Tübingen}%
+      }
+      \list{publisher}{1}{%
+        {Mohr}%
+      }
+      \strng{namehash}{bf8a51e913e00cd34395d1e8ddc72a1d}
+      \strng{fullhash}{bf8a51e913e00cd34395d1e8ddc72a1d}
+      \strng{bibnamehash}{bf8a51e913e00cd34395d1e8ddc72a1d}
+      \strng{authorbibnamehash}{bf8a51e913e00cd34395d1e8ddc72a1d}
+      \strng{authornamehash}{bf8a51e913e00cd34395d1e8ddc72a1d}
+      \strng{authorfullhash}{bf8a51e913e00cd34395d1e8ddc72a1d}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Magazin P 4476(3)}
+      \field{edition}{4}
+      \field{series}{Handbuch zum Neuen Testament}
+      \field{title}{Das Markusevangelium}
+      \field{volume}{3}
+      \field{year}{1950}
+      \true{nocite}
+      \keyw{Kommentar}
+    \endentry
+    \entry{mann1984}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9d7b547738201a20dd32242e25bd7b12}{%
+           family={Mann},
+           familyi={M\bibinitperiod},
+           given={Dietrich},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Konstanz}%
+      }
+      \list{publisher}{1}{%
+        {Christliche Verlagsanstalt}%
+      }
+      \strng{namehash}{9d7b547738201a20dd32242e25bd7b12}
+      \strng{fullhash}{9d7b547738201a20dd32242e25bd7b12}
+      \strng{bibnamehash}{9d7b547738201a20dd32242e25bd7b12}
+      \strng{authorbibnamehash}{9d7b547738201a20dd32242e25bd7b12}
+      \strng{authornamehash}{9d7b547738201a20dd32242e25bd7b12}
+      \strng{authorfullhash}{9d7b547738201a20dd32242e25bd7b12}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Das Neue Testament verstehen}
+      \field{year}{1984}
+      \true{nocite}
+      \keyw{Kommentar}
     \endentry
     \entry{na28}{book}{}
       \name{author}{1}{}{%
@@ -274,6 +421,7 @@
       \field{edition}{28}
       \field{title}{Novum Testamentum Graece}
       \field{year}{2012}
+      \keyw{Bibel}
     \endentry
     \entry{niebuhr2011}{book}{}
       \name{author}{1}{}{%
@@ -305,6 +453,47 @@
       \field{edition}{4}
       \field{title}{Grundinformation Neues Testament}
       \field{year}{2011}
+      \keyw{Sekundaer}
+    \endentry
+    \entry{preuss2003}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7513f39f3ae180ab60d285c3359f6a5b}{%
+           family={Preu{ß}},
+           familyi={P\bibinitperiod},
+           given={Horst\bibnamedelima Dietrich},
+           giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=660b31dabe5f40a4c6574e8b933b5c23}{%
+           family={Berger},
+           familyi={B\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Tübingen und Basel}%
+      }
+      \list{publisher}{1}{%
+        {A. Franke Verlag}%
+      }
+      \strng{namehash}{e36e86b4d0c6a5f9e6e80a06d7125675}
+      \strng{fullhash}{e36e86b4d0c6a5f9e6e80a06d7125675}
+      \strng{bibnamehash}{e36e86b4d0c6a5f9e6e80a06d7125675}
+      \strng{authorbibnamehash}{e36e86b4d0c6a5f9e6e80a06d7125675}
+      \strng{authornamehash}{e36e86b4d0c6a5f9e6e80a06d7125675}
+      \strng{authorfullhash}{e36e86b4d0c6a5f9e6e80a06d7125675}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{6}
+      \field{title}{Bibelkunde des Alten und Neuen Testaments}
+      \field{volume}{2, Neues Testament}
+      \field{year}{2003}
+      \true{nocite}
+      \keyw{Sekundaer}
     \endentry
     \entry{roose2010}{url}{}
       \name{author}{1}{}{%
@@ -340,6 +529,40 @@
       \verb{url}
       \verb https://www.bibelwissenschaft.de/fileadmin/buh_bibelmodul/media/wibi/pdf/Heilung_NT___2018-09-20_06_20.pdf
       \endverb
+      \keyw{Sekundaer}
+    \endentry
+    \entry{schlatter2}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=80ecb0db5587a2b059dde7708b173842}{%
+           family={Schlatter},
+           familyi={S\bibinitperiod},
+           given={Adolf},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Stuttgart}%
+      }
+      \list{publisher}{1}{%
+        {Calwer Verlag}%
+      }
+      \strng{namehash}{80ecb0db5587a2b059dde7708b173842}
+      \strng{fullhash}{80ecb0db5587a2b059dde7708b173842}
+      \strng{bibnamehash}{80ecb0db5587a2b059dde7708b173842}
+      \strng{authorbibnamehash}{80ecb0db5587a2b059dde7708b173842}
+      \strng{authornamehash}{80ecb0db5587a2b059dde7708b173842}
+      \strng{authorfullhash}{80ecb0db5587a2b059dde7708b173842}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Die Evangelien nach Markus und Lukas}
+      \field{volume}{2}
+      \field{year}{1965}
+      \true{nocite}
+      \keyw{Kommentar}
     \endentry
     \entry{schnelle2013}{book}{}
       \name{author}{1}{}{%
@@ -372,6 +595,7 @@
       \field{edition}{1}
       \field{title}{Einleitung in das Neue Testament}
       \field{year}{2013}
+      \keyw{Sekundaer}
     \endentry
     \entry{schnelle2014}{book}{}
       \name{author}{1}{}{%
@@ -404,6 +628,7 @@
       \field{edition}{8}
       \field{title}{Einführung in die neutestamentliche Exegese}
       \field{year}{2014}
+      \keyw{Sekundaer}
     \endentry
     \entry{schweizer1998}{book}{}
       \name{author}{1}{}{%
@@ -437,11 +662,50 @@
       \field{labeltitlesource}{title}
       \field{annotation}{Präsenz 22.2 Schw}
       \field{edition}{18}
-      \field{isbn}{978-3-525-51304-0}
       \field{series}{Das Neue Testament Deutsch}
       \field{title}{Das Evangelium nach Markus}
       \field{volume}{1}
       \field{year}{1998}
+      \keyw{Kommentar}
+    \endentry
+    \entry{strack1983}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d675bd9b4f5485fb27a88c9ecada1d47}{%
+           family={Strack},
+           familyi={S\bibinitperiod},
+           given={Hermann\bibnamedelima L.},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76ea498347fed77d37056f90f8ea1441}{%
+           family={Billerbeck},
+           familyi={B\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {München}%
+      }
+      \list{publisher}{1}{%
+        {C. H. Beck}%
+      }
+      \strng{namehash}{6080582363fe1dfd17dbdeea3f812bad}
+      \strng{fullhash}{6080582363fe1dfd17dbdeea3f812bad}
+      \strng{bibnamehash}{6080582363fe1dfd17dbdeea3f812bad}
+      \strng{authorbibnamehash}{6080582363fe1dfd17dbdeea3f812bad}
+      \strng{authornamehash}{6080582363fe1dfd17dbdeea3f812bad}
+      \strng{authorfullhash}{6080582363fe1dfd17dbdeea3f812bad}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Kommentar zum Neuen Testament aus Talmud und Midrasch: Das Evangelium nach Markus, Lukas und Johannes und die Apostelgeschichte}
+      \field{year}{1983}
+      \true{nocite}
+      \keyw{Kommentar}
     \endentry
     \entry{strack1996}{book}{}
       \name{author}{2}{}{%
@@ -470,6 +734,7 @@
       \strng{authorbibnamehash}{6080582363fe1dfd17dbdeea3f812bad}
       \strng{authornamehash}{6080582363fe1dfd17dbdeea3f812bad}
       \strng{authorfullhash}{6080582363fe1dfd17dbdeea3f812bad}
+      \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -479,6 +744,141 @@
       \field{edition}{10}
       \field{title}{Das Evangelium nach Matthäus erläutert nach Talmud und Midrasch}
       \field{year}{1996}
+      \keyw{Kommentar}
+    \endentry
+    \entry{wellhausen1903Mk}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d8eba5a4ed8bd39c3e72fdf7b6f97d58}{%
+           family={Wellhausen},
+           familyi={W\bibinitperiod},
+           given={Julius},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Georg Reimer}%
+      }
+      \strng{namehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{fullhash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{bibnamehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{authorbibnamehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{authornamehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{authorfullhash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Das Evangelium Marci}
+      \field{year}{1903}
+      \true{nocite}
+      \keyw{Kommentar}
+    \endentry
+    \entry{wellhausen1904Lk}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d8eba5a4ed8bd39c3e72fdf7b6f97d58}{%
+           family={Wellhausen},
+           familyi={W\bibinitperiod},
+           given={Julius},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Georg Reimer}%
+      }
+      \strng{namehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{fullhash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{bibnamehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{authorbibnamehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{authornamehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{authorfullhash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Das Evangelium Lucae}
+      \field{year}{1904}
+      \true{nocite}
+      \keyw{Kommentar}
+    \endentry
+    \entry{wellhausen1904Mt}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d8eba5a4ed8bd39c3e72fdf7b6f97d58}{%
+           family={Wellhausen},
+           familyi={W\bibinitperiod},
+           given={Julius},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Georg Reimer}%
+      }
+      \strng{namehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{fullhash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{bibnamehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{authorbibnamehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{authornamehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{authorfullhash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \field{extraname}{3}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Das Evangelium Matthaei}
+      \field{year}{1904}
+      \true{nocite}
+      \keyw{Kommentar}
+    \endentry
+    \entry{wellhausen1908Joh}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d8eba5a4ed8bd39c3e72fdf7b6f97d58}{%
+           family={Wellhausen},
+           familyi={W\bibinitperiod},
+           given={Julius},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Georg Reimer}%
+      }
+      \strng{namehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{fullhash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{bibnamehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{authorbibnamehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{authornamehash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \strng{authorfullhash}{d8eba5a4ed8bd39c3e72fdf7b6f97d58}
+      \field{extraname}{4}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Das Evangelium Johannis}
+      \field{year}{1908}
+      \true{nocite}
+      \keyw{Kommentar}
     \endentry
     \entry{elbtk2017}{book}{}
       \name{editor}{1}{}{%
@@ -507,6 +907,7 @@
       \field{edition}{1}
       \field{title}{Elberfelder Bibel Neues Testament Textkritische Ausgabe}
       \field{year}{2017}
+      \keyw{Bibel}
     \endentry
   \enddatalist
 \endrefsection

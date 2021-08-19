@@ -21,7 +21,7 @@
 \usepackage{setspace}
 \usepackage{tikz,color}
 \setkomafont{disposition}{\normalcolor\bfseries}
-\addbibresource{arbeit.bib}
+\addbibresource{Material/Literatur.bib}
 
 \renewcommand*\thesection{\S\,\arabic{section}}
 \renewcommand*\thesubsection{\arabic{section}.\arabic{subsection}}
@@ -120,7 +120,11 @@
 	%%
 	% Einbinden des Literaturverzeichnisses
 	\newpage
-  \printbibliography
+  \nocite{*}
+  \printbibheading%[title=Blub]
+  \printbibliography[heading=subbibliography,keyword=Bibel, title={Textausgaben}]
+  \printbibliography[heading=subbibliography,keyword=Kommentar, title={Kommentare}]
+  \printbibliography[heading=subbibliography,keyword=Sekundaer, title={Sekundärliteratur}]
 
 	%%
 	% Einbinden der Schlusserklärung
