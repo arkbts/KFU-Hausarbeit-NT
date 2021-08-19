@@ -37,7 +37,7 @@
 					& alexander.krause@elkb.de \\\\
 	Kurs:			& \kurs \\
   \ifthenelse{\equal{\abgabe}{}}{& \\}{Abgabe:   	& \abgabe \\}
-	Umfang:			& \pageref{LastPage} Seiten \\
+	Umfang:			& \the\numexpr\ztotpages-\litseiten-\tocseiten-2\ Seiten \\
 \end{tabular}
 
 %	\begin{tabular}{lp{6cm}lp{6cm}l}

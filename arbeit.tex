@@ -13,7 +13,7 @@
 % Einbinden der Packages
 \usepackage[ibycus,ngerman]{babel}  % falls der Artikel auf Deutsch verfasst ist
 \usepackage[backend=biber,style=authoryear,firstinits=true]{biblatex}
-\usepackage{geometry,scrlayer-scrpage,chngpage,soul,blindtext,fancybox,lastpage,microtype,textcomp,amsthm,pdfpages,hyperref,chngcntr,hebtex,amssymb,pxfonts,amssymb,epigraph}
+\usepackage{geometry,scrlayer-scrpage,chngpage,soul,blindtext,fancybox,lastpage,microtype,textcomp,amsthm,pdfpages,hyperref,chngcntr,hebtex,amssymb,pxfonts,amssymb,epigraph,zref-totpages}
 \usepackage[utf8]{inputenc}
 \usepackage[babel,german=quotes]{csquotes}
 \usepackage[normalem]{ulem}
@@ -26,7 +26,6 @@
 \renewcommand*\thesection{\S\,\arabic{section}}
 \renewcommand*\thesubsection{\arabic{section}.\arabic{subsection}}
 \renewcommand*\thesubsubsection{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
-
 \newcommand{\sectionNoNumber}[1]{\section*{#1}\markboth{#1}{#1}}
 
 %%
@@ -59,7 +58,7 @@
 
 %% Variablen
 \newcommand{\fassung}{ENTWURF}
-\newcommand{\abgabe}{}
+\newcommand{\abgabe}{21. August 2021}
 
 \newcommand{\art}{Hausarbeit}
 \newcommand{\fach}{Neues Testament}
@@ -70,6 +69,9 @@
 \newcommand{\mentor}{Gerhard M\,e\,t\,z\,g\,e\,r}
 \newcommand{\kurs}{31 (11/2020 bis 6/2022)}
 \newcommand{\wohnort}{Pommelsbrunn}
+
+\newcommand{\litseiten}{2} % Seitenanzahl Literaturverzeichnis
+\newcommand{\tocseiten}{1} % Seitenanzahl Inhaltsverzeichnis
 
 \renewcommand*{\mkbibnamelast}[1]{\textsc{#1}}
 
@@ -120,7 +122,7 @@
 	%%
 	% Einbinden des Literaturverzeichnisses
 	\newpage
-  \nocite{*}
+  \nocite{*} % bindet alle Literaturangaben ein, egal ob zitiert oder nicht
   \printbibheading%[title=Blub]
   \printbibliography[heading=subbibliography,keyword=Bibel, title={Textausgaben}]
   \printbibliography[heading=subbibliography,keyword=Kommentar, title={Kommentare}]
