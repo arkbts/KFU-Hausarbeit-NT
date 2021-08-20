@@ -1,0 +1,80 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\S \,1}Einleitung}{3}{section.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\S \,2}Der Text: Mk 2,\ 1--12}{3}{section.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Übersetzung aus dem Urtext}{3}{subsection.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Textkritik}{4}{subsection.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\S \,3}Textanalyse und Literarkritik}{9}{section.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Einleitungsfragen}{9}{subsection.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Abgrenzung der Perikope}{10}{subsection.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}Kontextanalyse}{10}{subsection.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline 1--8,26 Jesu Wirken in Galiläa}{10}{paragraph*.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline 8,27--10 Jesu Weg nach Jerusalem}{10}{paragraph*.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline 11--16 Jesu Wirken in Jerusalem}{11}{paragraph*.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4}Gliederung der Perikope}{11}{subsection.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline I.}{11}{paragraph*.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline II.}{11}{paragraph*.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline III.}{12}{paragraph*.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5}Textpragmatik}{12}{subsection.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.6}Quellenkritik, Synoptischer Vergleich}{13}{subsection.3.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.7}Literarkritik}{18}{subsection.3.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\S \,4}Formgeschichte}{20}{section.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}Redaktionsgeschichte}{20}{subsection.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}Traditionskritik}{20}{subsection.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3}Rückfrage nach Jesus}{21}{subsection.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline 1.}{22}{paragraph*.25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline 2.}{22}{paragraph*.27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline 3.}{22}{paragraph*.29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\nonumberline Fazit:}{22}{paragraph*.31}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4}Gattungsbestimmung, \glqq Sitz im Leben\grqq }{22}{subsection.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\S \,5}Geistige Umwelt des Textes}{23}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1}Begriffs- und Traditionsgeschichte}{23}{subsection.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.1.1}\ibygr {)O uioj tou anqropou}}{23}{subsubsection.5.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.1.2}Krankheit und Heilung in Antike und Orient}{24}{subsubsection.5.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.1.3}Apophthegmata}{25}{subsubsection.5.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2}Religionsgeschichtlicher Vergleich}{25}{subsection.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3}Historischer Zusammenhang}{26}{subsection.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\S \,6}Interpretation}{26}{section.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1}Auslegung}{27}{subsection.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2}Ausblick}{27}{subsection.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Literaturverzeichnis}{29}{section*.33}%
+\defcounter {refsection}{0}\relax 
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

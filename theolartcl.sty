@@ -20,15 +20,21 @@
 \RequirePackage{tikz} % Zeichnungen, wie Diagramme
 \setkomafont{disposition}{\normalcolor\bfseries}
 
+%%
+% Bibliographie
 \RequirePackage[backend=biber,style=authoryear-ibid,firstinits=true,ibidpage,pagetracker=false,pagetracker=true]{biblatex}
 \DefineBibliographyStrings{german}{ibidem = {ibid\adddot}}
+
+% Verlag ausblenden (KFU)
+\AtEveryCitekey{\clearlist{publisher}}
+\AtEveryBibitem{\clearlist{publisher}}
 
 % Einstellen des Textlayouts auf Vorgaben für wissenschaftliche Arbeiten
 \RequirePackage{geometry}
 \pagestyle{scrheadings}
 \clearscrheadfoot
 \automark[section]{section}
-\cfoot[\pagemark]{-- \pagemark\,--}
+\ofoot[\pagemark]{-- \pagemark\,--}
 \ihead[\headmark]{\headmark}
 
 % Anpassung der Gliederungsziffern
@@ -72,8 +78,8 @@
     \setlength{\parindent}{0pt}
 
     \textbf{\@einrichtung} \\
-    \textbf{\@abteilung} \\
-    \textbf{\@semesterlabel\ \@semester}
+    \textbf{\@abteilung} %\\
+    %\textbf{\@semesterlabel\ \@semester}
 
     \vfill
 
@@ -94,15 +100,15 @@
       \ifthenelse{\equal{\@fassung}{}}{}{\setlength{\fboxrule}{2pt}\begin{center}\fbox{\Huge{\@fassung}}\\\large{v. \today}\end{center}\vfill\normalsize}
 
       \begin{tabular}{ll}
-      	Vorgelegt von:	& \@name \\
+      	\textbf{Vorgelegt von:}	& \@name \\
       					\ifthenelse{\equal{\@personTitel}{}}{}{ & \@personTitel \\}
       					& \@adresse \\
       					& \@email \\
-      	%\@semesterlabel:			& \@semester \\
-        \ifthenelse{\equal{\@dozentin}{}}{\\}{Dozent:in: & \@dozentin\\}
-      	\ifthenelse{\equal{\@mentorin}{}}{}{Mentor:  & \@mentorin\\\\}
-      	\ifthenelse{\equal{\@abgabe}{}}{& \\}{Abgabe:   	& \@abgabe \\}
-      	Umfang:			& \the\numexpr\ztotpages-\@litseiten-\@tocseiten-2\ Seiten \\
+      	\ifthenelse{\equal{\@dozentin}{}}{\\}{\textbf{Dozent:in:} & \@dozentin\\}
+      	\ifthenelse{\equal{\@mentorin}{}}{}{\textbf{Mentor:}  & \@mentorin\\\\}
+        \textbf{\@semesterlabel:}			& \@semester \\\\
+        \ifthenelse{\equal{\@abgabe}{}}{& \\}{\textbf{Abgabe:}   	& \@abgabe}
+        %Umfang:			& \the\numexpr\ztotpages-\@litseiten-\@tocseiten-2\ Seiten \\
       \end{tabular}
 
     %	\begin{tabular}{lp{6cm}lp{6cm}l}
