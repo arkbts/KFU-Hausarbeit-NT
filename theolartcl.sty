@@ -94,14 +94,14 @@
       \ifthenelse{\equal{\@fassung}{}}{}{\setlength{\fboxrule}{2pt}\begin{center}\fbox{\Huge{\@fassung}}\\\large{v. \today}\end{center}\vfill\normalsize}
 
       \begin{tabular}{ll}
-      	\ifthenelse{\equal{\@dozentin}{}}{}{Dozent:in: & \@dozentin}\\
-      	\ifthenelse{\equal{\@mentorin}{}}{}{Mentor:  & \@mentorin\\\\}
       	Vorgelegt von:	& \@name \\
       					\ifthenelse{\equal{\@personTitel}{}}{}{ & \@personTitel \\}
       					& \@adresse \\
-      					& \@email \\\\
+      					& \@email \\
       	%\@semesterlabel:			& \@semester \\
-        \ifthenelse{\equal{\@abgabe}{}}{& \\}{Abgabe:   	& \@abgabe \\}
+        \ifthenelse{\equal{\@dozentin}{}}{\\}{Dozent:in: & \@dozentin\\}
+      	\ifthenelse{\equal{\@mentorin}{}}{}{Mentor:  & \@mentorin\\\\}
+      	\ifthenelse{\equal{\@abgabe}{}}{& \\}{Abgabe:   	& \@abgabe \\}
       	Umfang:			& \the\numexpr\ztotpages-\@litseiten-\@tocseiten-2\ Seiten \\
       \end{tabular}
 
