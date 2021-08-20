@@ -1,0 +1,149 @@
+\ProvidesPackage{theolreprt}[2021/08/20 Theologische Hausarbeit]
+\ProcessOptions\relax
+
+%%
+% Essentielle Packages
+\RequirePackage[ibycus,ngerman]{babel}  % falls der Artikel auf Deutsch verfasst ist
+\RequirePackage[]{hyperref}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[babel,german=quotes]{csquotes}
+\RequirePackage[normalem]{ulem}
+\RequirePackage[multiple]{footmisc}
+\RequirePackage{microtype} % verbesserte Schrift, angepasster Grauwert etc. (für PDF)
+
+%%
+% Theologie-Packages
+\RequirePackage{hebtex} % Hebräischer Text
+\RequirePackage{scrlayer-scrpage}
+\RequirePackage{amssymb,amsthm} % mathematische Symbole, aber auch für Fraktur-Zeichen (Tk-Siglen)
+\RequirePackage{epigraph} % große Zitate
+\RequirePackage{zref-totpages} % Gesamtseitenzahl
+\RequirePackage{tikz} % Zeichnungen, wie Diagramme
+\setkomafont{disposition}{\normalcolor\bfseries}
+
+%%
+% Bibliographie-Packages und Einstellungen
+\RequirePackage[backend=biber,style=authoryear-ibid,firstinits=true,ibidpage,pagetracker=false,pagetracker=true]{biblatex}
+\DefineBibliographyStrings{german}{ibidem = {ibid\adddot}}
+\addbibresource{Material/Literatur.bib}
+
+% Einstellen des Textlayouts auf Vorgaben für Facharbeiten
+\RequirePackage{geometry}
+\pagestyle{scrheadings}
+\clearscrheadfoot
+\automark[section]{section}
+\cfoot[\pagemark]{-- \pagemark\,--}
+\ihead[\headmark]{\headmark}
+
+% Anpassung der Gliederungsziffern
+\renewcommand*\thesection{\S\,\arabic{section}}
+\renewcommand*\thesubsection{\arabic{section}.\arabic{subsection}}
+\renewcommand*\thesubsubsection{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
+\newcommand{\sectionNoNumber}[1]{\section*{#1}\markboth{#1}{#1}}
+
+% Zeilenabstand wie bei Word
+\RequirePackage{setspace}
+\newcommand{\MSonehalfspacing}{%
+  \setstretch{1.44}%  default
+  \ifcase \@ptsize \relax % 10pt
+    \setstretch {1.448}%
+  \or % 11pt
+    \setstretch {1.399}%
+  \or % 12pt
+    \setstretch {1.433}%
+  \fi
+}
+\newcommand{\MSdoublespacing}{%
+  \setstretch {1.92}%  default
+  \ifcase \@ptsize \relax % 10pt
+    \setstretch {1.936}%
+  \or % 11pt
+    \setstretch {1.866}%
+  \or % 12pt
+    \setstretch {1.902}%
+  \fi
+}
+
+% Typopgrafisch richtige Abkürzungen
+\RequirePackage{xspace}
+\newcommand{\zB}{\mbox{z.\,B.}\xspace} % typografisch richtiges z. B.
+\newcommand{\ie}{\mbox{i.\,e.}\xspace} % typografisch richtiges i. e.
+\renewcommand*{\mkbibnamelast}[1]{\textsc{#1}}
+
+\renewcommand*{\maketitle}{%
+  \begin{titlepage} % gibt es bei vielen Klassen (siehe Anleitung der Klasse)
+    \thispagestyle{empty}
+    \setlength{\parindent}{0pt}
+
+    \textbf{\@einrichtung} \\
+    \textbf{\@abteilung} \\
+    \textbf{\@semesterlabel\ \@semester}
+
+    \vfill
+
+    \begin{center}
+      \textsc{\Large{\@art}}\\
+      \large{im Fach \@fach}
+
+      	\vfill
+
+      \begin{huge}
+    	\@titel\\[1em]
+      \end{huge}
+    \normalsize\@untertitel
+    \end{center}
+
+    	\vfill
+
+      \ifthenelse{\equal{\@fassung}{}}{}{\setlength{\fboxrule}{2pt}\begin{center}\fbox{\Huge{\@fassung}}\\\large{v. \today}\end{center}\vfill\normalsize}
+
+      \begin{tabular}{ll}
+      	\ifthenelse{\equal{\@dozentin}{}}{}{Dozent:in: & \@dozentin}\\
+      	\ifthenelse{\equal{\@mentorin}{}}{}{Mentor:  & \@mentorin\\\\}
+      	Vorgelegt von:	& \@name \\
+      					\ifthenelse{\equal{\@personTitel}{}}{}{ & \@personTitel \\}
+      					& \@adresse \\
+      					& \@email \\\\
+      	%\@semesterlabel:			& \@semester \\
+        \ifthenelse{\equal{\@abgabe}{}}{& \\}{Abgabe:   	& \@abgabe \\}
+      	Umfang:			& \the\numexpr\ztotpages-\@litseiten-\@tocseiten-2\ Seiten \\
+      \end{tabular}
+
+    %	\begin{tabular}{lp{6cm}lp{6cm}l}
+    %		Wertung der Arbeit: & \hrulefill &\\\\
+    %		Wertung der Präsentation: & \hrulefill &\\\\
+    %		Gesamtwertung: & \hrulefill &\\\\
+    %		Unterschrift des \\Seminarleiters: & \hrulefill \\ & Claus B\,y\,s\,t\,r\,o\,n
+    %	\end{tabular}
+
+  \end{titlepage}
+	\newpage
+  \interfootnotelinepenalty 10000
+  \setlength{\footnotesep}{1.2em}
+  \renewcommand{\refname}{Literaturverzeichnis}
+	\tableofcontents\MSonehalfspacing
+  \clubpenalty = 10000 % Keine "Schusterjungen"
+  \widowpenalty = 10000 \displaywidowpenalty = 10000 % Keine "Hurenkinder"
+}
+
+\newcommand*{\fach}[1]{\gdef\@fach{#1}} \newcommand*{\@fach}{}
+\newcommand*{\abgabe}[1]{\gdef\@abgabe{#1}} \newcommand*{\@abgabe}{}
+\newcommand*{\abteilung}[1]{\gdef\@abteilung{#1}} \newcommand*{\@abteilung}{}
+\newcommand*{\einrichtung}[1]{\gdef\@einrichtung{#1}} \newcommand*{\@einrichtung}{}
+\newcommand*{\email}[1]{\gdef\@email{#1}} \newcommand*{\@email}{}
+\newcommand*{\semester}[1]{\gdef\@semester{#1}} \newcommand*{\@semester}{}
+\newcommand*{\semesterlabel}[1]{\gdef\@semesterlabel{#1}} \newcommand*{\@semesterlabel}{}
+\newcommand*{\litseiten}[1]{\gdef\@litseiten{#1}} \newcommand*{\@litseiten}{1}
+\newcommand*{\tocseiten}[1]{\gdef\@tocseiten{#1}} \newcommand*{\@tocseiten}{1}
+\newcommand*{\dozentin}[1]{\gdef\@dozentin{#1}} \newcommand*{\@dozentin}{}
+\newcommand*{\mentorin}[1]{\gdef\@mentorin{#1}} \newcommand*{\@mentorin}{}
+\newcommand*{\fassung}[1]{\gdef\@fassung{#1}} \newcommand*{\@fassung}{}
+\newcommand*{\titel}[1]{\gdef\@titel{#1}} \newcommand*{\@titel}{}
+\newcommand*{\untertitel}[1]{\gdef\@untertitel{#1}} \newcommand*{\@untertitel}{}
+\newcommand*{\art}[1]{\gdef\@art{#1}} \newcommand*{\@art}{}
+\newcommand*{\name}[1]{\gdef\@name{#1}} \newcommand*{\@name}{}
+\newcommand*{\personTitel}[1]{\gdef\@personTitel{#1}} \newcommand*{\@personTitel}{}
+\newcommand*{\adresse}[1]{\gdef\@adresse{#1}} \newcommand*{\@adresse}{}
+\newcommand*{\wohnort}[1]{\gdef\@wohnort{#1}} \newcommand*{\@wohnort}{}
+
+\endinput % Das ist das Ende von theolreprt.sty

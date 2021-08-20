@@ -7,27 +7,13 @@
 
 %%
 % Dokumentklasse
-\documentclass[headsepline,12pt,bibliography=totoc,enabledeprecatedfontcommands]{scrartcl}
+\documentclass[titlepage=true,headsepline,12pt,bibliography=totoc,enabledeprecatedfontcommands]{scrartcl}
+\usepackage{theolreprt}
 
 %%
-% Essentielle Packages
-\usepackage[ibycus,ngerman]{babel}  % falls der Artikel auf Deutsch verfasst ist
-\usepackage[]{hyperref}
-\usepackage[utf8]{inputenc}
-\usepackage[babel,german=quotes]{csquotes}
-\usepackage[normalem]{ulem}
-\usepackage[multiple]{footmisc}
-\usepackage{microtype} % verbesserte Schrift, angepasster Grauwert etc. (für PDF)
-
+% Vorgaben für den Satz
+\geometry{a4paper,left=20mm,right=30mm,top=20mm,bottom=20mm,includeheadfoot}
 %%
-% Theologie-Packages
-\usepackage{hebtex} % Hebräischer Text
-\usepackage{scrlayer-scrpage}
-\usepackage{amssymb,amsthm} % mathematische Symbole, aber auch für Fraktur-Zeichen (Tk-Siglen)
-\usepackage{epigraph} % große Zitate
-\usepackage{zref-totpages} % Gesamtseitenzahl
-\usepackage{tikz} % Zeichnungen, wie Diagramme
-\setkomafont{disposition}{\normalcolor\bfseries}
 
 %%
 % Optionale Packages
@@ -37,132 +23,40 @@
 % \usepackage{pdfpages} % PDF-Dateien einbinden
 % \usepackage{chngcntr}
 % \usepackage{pxfonts}
-\usepackage{color} % farbiger Text
-
+% \usepackage{color} % farbiger Text
 %%
-% Bibliographie-Packages und Einstellungen
-\usepackage[backend=biber,style=authoryear-ibid,firstinits=true,ibidpage,pagetracker=false,pagetracker=true]{biblatex}
-\DefineBibliographyStrings{german}{ibidem = {ibid\adddot}}
-\addbibresource{Material/Literatur.bib}
 
-% Einstellen des Textlayouts auf Vorgaben für Facharbeiten
-\usepackage{geometry}
-\geometry{a4paper,left=20mm,right=30mm,top=20mm,bottom=20mm,includeheadfoot}
-\pagestyle{scrheadings}
-\clearscrheadfoot
-\automark[section]{section}
-\cfoot[\pagemark]{-- \pagemark\,--}
-\ihead[\headmark]{\headmark}
-
-%% Benutzerdefinierte Befehle
-
-% Anpassung der Gliederungsziffern
-\renewcommand*\thesection{\S\,\arabic{section}}
-\renewcommand*\thesubsection{\arabic{section}.\arabic{subsection}}
-\renewcommand*\thesubsubsection{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
-\newcommand{\sectionNoNumber}[1]{\section*{#1}\markboth{#1}{#1}}
-
-% Zeilenabstand wie bei Word
-\usepackage{setspace}
-\makeatletter
-\newcommand{\MSonehalfspacing}{%
-  \setstretch{1.44}%  default
-  \ifcase \@ptsize \relax % 10pt
-    \setstretch {1.448}%
-  \or % 11pt
-    \setstretch {1.399}%
-  \or % 12pt
-    \setstretch {1.433}%
-  \fi
-}
-\newcommand{\MSdoublespacing}{%
-  \setstretch {1.92}%  default
-  \ifcase \@ptsize \relax % 10pt
-    \setstretch {1.936}%
-  \or % 11pt
-    \setstretch {1.866}%
-  \or % 12pt
-    \setstretch {1.902}%
-  \fi
-}
-\makeatother
-
-% Typopgrafisch richtige Abkürzungen
-\usepackage{xspace}
-\newcommand{\zB}{\mbox{z.\,B.}\xspace} % typografisch richtiges z. B.
-\newcommand{\ie}{\mbox{i.\,e.}\xspace} % typografisch richtiges i. e.
-\renewcommand*{\mkbibnamelast}[1]{\textsc{#1}}
-
-%%
-% Variablen
-\newcommand{\fassung}{ENTWURF}
-\newcommand{\abgabe}{21. August 2021}
-
-\newcommand{\art}{Hausarbeit}
-\newcommand{\fach}{Neues Testament}
-\newcommand{\titel}{\glqq Steh auf, nimm deine Matte\\ und geh in dein Haus!\grqq}
-\newcommand{\untertitel}{Exegese zu Mk 2, 1--12 parr.}
-\newcommand{\dozent}{}
-\newcommand{\name}{Alexander R. K\,r\,a\,u\,s\,e}
-\newcommand{\mentor}{Gerhard M\,e\,t\,z\,g\,e\,r}
-\newcommand{\kurs}{31 (11/2020 bis 6/2022)}
-\newcommand{\wohnort}{Pommelsbrunn}
-
-\newcommand{\litseiten}{2} % Seitenanzahl Literaturverzeichnis
-\newcommand{\tocseiten}{1} % Seitenanzahl Inhaltsverzeichnis
-
-%%
-% Start des Dokumentes
 \begin{document}
 
-	\newenvironment{sourcequote}[1]%
-	{\begin{quote}\singlespacing\small\sbox{\source}{#1}}%
-	{\\\hspace*{\fill}\usebox{\source}\end{quote}}
+  \fach{Neues Testament}
+  \abgabe{21. August 2021}
+  \einrichtung{Evangelische Kirche in Mitteldeutschland}
+  \abteilung{Kirchlicher Fernunterricht}
+  \name{Alexander R. Krause}
+  \personTitel{}
+  \email{alexander.krause@elkb.de}
+  \adresse{91224 Pommelsbrunn, Weinleitenweg 2}
+  \wohnort{Pommelsbrunn}
+  \semesterlabel{Kurs}
+  \semester{31 (11/2020 -- 6/2021)}
+  \litseiten{2}
+  \tocseiten{1}
+  \mentorin{Gerhard Metzger}
+  \fassung{ENTWURF}
+  \art{Hausarbeit}
+  \titel{\glqq Steh auf, nimm deine Matte\\ und geh in dein Haus!\grqq}
+  \untertitel{Exegese zu Mk 2, 1--12 parr.}
+  \maketitle
 
-	% Keine "Schusterjungen"
-	\clubpenalty = 10000
-	% Keine "Hurenkinder"
-	\widowpenalty = 10000 \displaywidowpenalty = 10000
+  \newpage\include{text} % Einbinden des Haupttextes
 
-	\interfootnotelinepenalty 10000
-	\setlength{\parindent}{0pt}
-	\setlength{\footnotesep}{1.2em}
-	\renewcommand{\refname}{Literaturverzeichnis}
-
-  %%
-	% Titelseite, immer
-	\include{titelseite}
-	\newpage
-	\tableofcontents
-	\setcounter{page}{2}
-	\setlength{\parindent}{2em}
-
-  %%
-  % 1,5facher Zeilenabstand (wie Word)
-  \MSonehalfspacing
-
-	%%
-	% Einbinden des Haupttextes
-	\newpage
-	\include{text}
-
-	%%
-	% Einbinden des Literaturverzeichnisses
-	\newpage
-  \nocite{*} % bindet alle Literaturangaben ein, egal ob zitiert oder nicht
+	\newpage\nocite{*} % bindet alle Literaturangaben ein, egal ob zitiert oder nicht
   \printbibheading%[title=Blub]
   \printbibliography[heading=subbibliography,keyword=Bibel, title={Textausgaben}]
   \printbibliography[heading=subbibliography,keyword=Kommentar, title={Kommentare}]
   \printbibliography[heading=subbibliography,keyword=Sekundaer, title={Sekundärliteratur}]
 
-	%%
-	% Einbinden der Schlusserklärung
-	\newpage
-	\include{erklaerung}
-
-	%%
-	% Einbinden des Anhangs
-	\newpage
-  \include{appendix}
+	\newpage\include{erklaerung} % Einbinden der Schlusserklärung
+	\newpage\include{appendix} % Einbinden des Anhangs
 
 \end{document}
