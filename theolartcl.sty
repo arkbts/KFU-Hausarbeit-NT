@@ -4,9 +4,8 @@
 %%
 % Essentielle Packages
 \RequirePackage[ibycus,ngerman]{babel}  % falls der Artikel auf Deutsch verfasst ist
-\RequirePackage[]{hyperref}
-\RequirePackage[utf8]{inputenc}
 \RequirePackage[babel,german=quotes]{csquotes}
+\RequirePackage{hyperref}
 \RequirePackage[normalem]{ulem}
 \RequirePackage[multiple]{footmisc}
 \RequirePackage{microtype} % verbesserte Schrift, angepasster Grauwert etc. (für PDF)
@@ -21,13 +20,10 @@
 \RequirePackage{tikz} % Zeichnungen, wie Diagramme
 \setkomafont{disposition}{\normalcolor\bfseries}
 
-%%
-% Bibliographie-Packages und Einstellungen
 \RequirePackage[backend=biber,style=authoryear-ibid,firstinits=true,ibidpage,pagetracker=false,pagetracker=true]{biblatex}
 \DefineBibliographyStrings{german}{ibidem = {ibid\adddot}}
-\addbibresource{Material/Literatur.bib}
 
-% Einstellen des Textlayouts auf Vorgaben für Facharbeiten
+% Einstellen des Textlayouts auf Vorgaben für wissenschaftliche Arbeiten
 \RequirePackage{geometry}
 \pagestyle{scrheadings}
 \clearscrheadfoot
