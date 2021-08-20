@@ -104,22 +104,16 @@
       					\ifthenelse{\equal{\@personTitel}{}}{}{ & \@personTitel \\}
       					& \@adresse \\
       					& \@email \\
-      	\ifthenelse{\equal{\@dozentin}{}}{\\}{\textbf{Dozent:in:} & \@dozentin\\}
-      	\ifthenelse{\equal{\@mentorin}{}}{}{\textbf{Mentor:}  & \@mentorin\\\\}
+      	\ifthenelse{\equal{\@dozentin}{}}{\\}{\textbf{Dozent:in:} & \@dozentin\\\\}
+      	\ifthenelse{\equal{\@mentorin}{}}{\\}{\textbf{Mentor:}  & \@mentorin\\\\}
         \textbf{\@semesterlabel:}			& \@semester \\\\
-        \ifthenelse{\equal{\@abgabe}{}}{& \\}{\textbf{Abgabe:}   	& \@abgabe}
+        \ifthenelse{\equal{\@abgabe}{}}{\\}{\textbf{Abgabe:}   	& \@abgabe}
         %Umfang:			& \the\numexpr\ztotpages-\@litseiten-\@tocseiten-2\ Seiten \\
       \end{tabular}
 
-    %	\begin{tabular}{lp{6cm}lp{6cm}l}
-    %		Wertung der Arbeit: & \hrulefill &\\\\
-    %		Wertung der Präsentation: & \hrulefill &\\\\
-    %		Gesamtwertung: & \hrulefill &\\\\
-    %		Unterschrift des \\Seminarleiters: & \hrulefill \\ & Claus B\,y\,s\,t\,r\,o\,n
-    %	\end{tabular}
-
   \end{titlepage}
-	\newpage
+
+  \newpage
   \interfootnotelinepenalty 10000
   \setlength{\footnotesep}{1.2em}
   \renewcommand{\refname}{Literaturverzeichnis}
