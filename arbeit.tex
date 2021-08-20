@@ -1,35 +1,69 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% facharbeit.tex								%%
+%% arbeit.tex					                    			%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% In dieser Datei werden die grundsätzlichen	%%
-%% Einstellungen der Facharbeit gemacht.		%%
+%% In dieser Datei werden die grundsätzlichen   %%
+%% Einstellungen der Arbeit gemacht.            %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%
-% Einbinden der Dokumentklasse
+% Dokumentklasse
 \documentclass[headsepline,12pt,bibliography=totoc,enabledeprecatedfontcommands]{scrartcl}
 
 %%
-% Einbinden der Packages
+% Essentielle Packages
 \usepackage[ibycus,ngerman]{babel}  % falls der Artikel auf Deutsch verfasst ist
-\usepackage[backend=biber,style=authoryear,firstinits=true]{biblatex}
-\usepackage{geometry,scrlayer-scrpage,chngpage,soul,blindtext,fancybox,lastpage,microtype,textcomp,amsthm,pdfpages,hyperref,chngcntr,hebtex,amssymb,pxfonts,amssymb,epigraph,zref-totpages}
+\usepackage[]{hyperref}
 \usepackage[utf8]{inputenc}
 \usepackage[babel,german=quotes]{csquotes}
 \usepackage[normalem]{ulem}
 \usepackage[multiple]{footmisc}
-\usepackage{setspace}
-\usepackage{tikz,color}
+\usepackage{microtype} % verbesserte Schrift, angepasster Grauwert etc. (für PDF)
+
+%%
+% Theologie-Packages
+\usepackage{hebtex} % Hebräischer Text
+\usepackage{scrlayer-scrpage}
+\usepackage{amssymb,amsthm} % mathematische Symbole, aber auch für Fraktur-Zeichen (Tk-Siglen)
+\usepackage{epigraph} % große Zitate
+\usepackage{zref-totpages} % Gesamtseitenzahl
+\usepackage{tikz} % Zeichnungen, wie Diagramme
 \setkomafont{disposition}{\normalcolor\bfseries}
+
+%%
+% Optionale Packages
+% \usepackage{chngpage} % Layout im Dokument ändern
+% \usepackage{soul} % Sperrsatz
+% \usepackage{fancybox}
+% \usepackage{pdfpages} % PDF-Dateien einbinden
+% \usepackage{chngcntr}
+% \usepackage{pxfonts}
+\usepackage{color} % farbiger Text
+
+%%
+% Bibliographie-Packages und Einstellungen
+\usepackage[backend=biber,style=authoryear-ibid,firstinits=true,ibidpage,pagetracker=false,pagetracker=true]{biblatex}
+\DefineBibliographyStrings{german}{ibidem = {ibid\adddot}}
 \addbibresource{Material/Literatur.bib}
 
+% Einstellen des Textlayouts auf Vorgaben für Facharbeiten
+\usepackage{geometry}
+\geometry{a4paper,left=20mm,right=30mm,top=20mm,bottom=20mm,includeheadfoot}
+\pagestyle{scrheadings}
+\clearscrheadfoot
+\automark[section]{section}
+\cfoot[\pagemark]{-- \pagemark\,--}
+\ihead[\headmark]{\headmark}
+
+%% Benutzerdefinierte Befehle
+
+% Anpassung der Gliederungsziffern
 \renewcommand*\thesection{\S\,\arabic{section}}
 \renewcommand*\thesubsection{\arabic{section}.\arabic{subsection}}
 \renewcommand*\thesubsubsection{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
 \newcommand{\sectionNoNumber}[1]{\section*{#1}\markboth{#1}{#1}}
 
-%%
-% MS Spacing
+% Zeilenabstand wie bei Word
+\usepackage{setspace}
 \makeatletter
 \newcommand{\MSonehalfspacing}{%
   \setstretch{1.44}%  default
@@ -53,10 +87,14 @@
 }
 \makeatother
 
+% Typopgrafisch richtige Abkürzungen
+\usepackage{xspace}
 \newcommand{\zB}{\mbox{z.\,B.}\xspace} % typografisch richtiges z. B.
 \newcommand{\ie}{\mbox{i.\,e.}\xspace} % typografisch richtiges i. e.
+\renewcommand*{\mkbibnamelast}[1]{\textsc{#1}}
 
-%% Variablen
+%%
+% Variablen
 \newcommand{\fassung}{ENTWURF}
 \newcommand{\abgabe}{21. August 2021}
 
@@ -72,17 +110,6 @@
 
 \newcommand{\litseiten}{2} % Seitenanzahl Literaturverzeichnis
 \newcommand{\tocseiten}{1} % Seitenanzahl Inhaltsverzeichnis
-
-\renewcommand*{\mkbibnamelast}[1]{\textsc{#1}}
-
-% Einstellen des Textlayouts auf Vorgaben für Facharbeiten
-\geometry{a4paper,left=20mm,right=30mm,top=20mm,bottom=20mm,includeheadfoot}
-
-\pagestyle{scrheadings}
-\clearscrheadfoot
-\automark[section]{section}
-\cfoot[\pagemark]{-- \pagemark\,--}
-\ihead[\headmark]{\headmark}
 
 %%
 % Start des Dokumentes
@@ -103,7 +130,7 @@
 	\renewcommand{\refname}{Literaturverzeichnis}
 
   %%
-	%Titelseite, immer
+	% Titelseite, immer
 	\include{titelseite}
 	\newpage
 	\tableofcontents

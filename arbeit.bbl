@@ -421,6 +421,7 @@
       \field{edition}{28}
       \field{title}{Novum Testamentum Graece}
       \field{year}{2012}
+      \true{nocite}
       \keyw{Bibel}
     \endentry
     \entry{niebuhr2011}{book}{}
