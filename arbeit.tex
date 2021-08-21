@@ -9,8 +9,7 @@
 % Dokumentklasse
 \documentclass[hidelinks,titlepage=true,headsepline,12pt,bibliography=totoc,enabledeprecatedfontcommands]{scrartcl}
 \usepackage{theolartcl}
-\usepackage[utf8]{inputenc}
-\addbibresource{Material/Literatur.bib} % Literaturdatenbank
+\bibliography{Literatur.bib} % Literaturdatenbank
 
 %%
 % Vorgaben für den Satz
@@ -42,13 +41,13 @@
   \adresse{91224 Pommelsbrunn, Weinleitenweg 2}
   \wohnort{Pommelsbrunn}
   \semesterlabel{Kurs}
-  \semester{31 (11/2020 -- 6/2021)}
+  \semester{31 (11/2020 -- 6/2022)}
   \dozentin{}
   \mentorin{Gerhard \so{Metzger}}
   \abgabe{21. August 2021}
   \litseiten{2}
   \tocseiten{1}
-  \fassung{ABGABE-KANDIDAT III}
+  \fassung{}
   \maketitle
 
   \newpage\include{text} % Einbinden des Haupttextes
@@ -59,7 +58,7 @@
   \printbibliography[heading=subbibliography,keyword=Kommentar, title={Kommentare}]
   \printbibliography[heading=subbibliography,keyword=Sekundaer, title={Sekundärliteratur}]
 
-	\newpage\include{erklaerung} % Einbinden der Schlusserklärung
 	\newpage\include{appendix} % Einbinden des Anhangs
+  \newpage\include{erklaerung} % Einbinden der Schlusserklärung
 
 \end{document}

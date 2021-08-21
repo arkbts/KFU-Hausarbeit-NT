@@ -4,6 +4,7 @@
 %%
 % Essentielle Packages
 \RequirePackage[ibycus,ngerman]{babel}  % falls der Artikel auf Deutsch verfasst ist
+\RequirePackage[utf8]{inputenc}
 \RequirePackage[babel,german=quotes]{csquotes}
 \RequirePackage{hyperref}
 \RequirePackage[normalem]{ulem}
@@ -22,7 +23,7 @@
 
 %%
 % Bibliographie
-\RequirePackage[backend=biber,style=authoryear-ibid,firstinits=true,ibidpage,pagetracker=false,pagetracker=true]{biblatex}
+\RequirePackage[backend=biber,style=authoryear-ibid,ibidpage,pagetracker=false,pagetracker=true]{biblatex}
 \DefineBibliographyStrings{german}{ibidem = {ibid\adddot}}
 
 % Verlag ausblenden (KFU)
@@ -70,7 +71,7 @@
 \RequirePackage{xspace}
 \newcommand{\zB}{\mbox{z.\,B.}\xspace} % typografisch richtiges z. B.
 \newcommand{\ie}{\mbox{i.\,e.}\xspace} % typografisch richtiges i. e.
-\renewcommand*{\mkbibnamelast}[1]{\textsc{#1}}
+\renewcommand*{\mkbibnamefamily}[1]{\textsc{#1}}
 
 \renewcommand*{\maketitle}{%
   \begin{titlepage} % gibt es bei vielen Klassen (siehe Anleitung der Klasse)
@@ -80,6 +81,7 @@
     \textbf{\@einrichtung} \\
     \textbf{\@abteilung} %\\
     %\textbf{\@semesterlabel\ \@semester}
+    \\\hrule height 1pt
 
     \vfill
 
